@@ -1,0 +1,41 @@
+{
+  "name": "shard",
+  "version": "1.0.0",
+  "description": "A [Shorthand](https://github.com/shorthand) story about the Shard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "deploy": "node --harmony deploy.js",
+    "deploy:confirm": "node --harmony deploy.js --confirm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ft-interactive/shard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ft-interactive/shard/issues"
+  },
+  "homepage": "https://github.com/ft-interactive/shard#readme",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "figures": "^2.0.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "input": "^1.0.1",
+    "minimist": "^1.2.0",
+    "nodegit": "^0.16.0",
+    "ora": "^1.0.0",
+    "parse-github-url": "^1.0.0",
+    "path": "^0.12.7",
+    "s3": "^4.4.0"
+  }
+}
