@@ -161,7 +161,7 @@ process.on('unhandledRejection', (error) => {
     function uploadDir(dir, p) {
       return new Promise((res, rej) => {
         p.localDir = dir;
-        if (path.basename(dir) !== path.basename(__dirname) {
+        if (path.basename(dir) !== path.basename(__dirname)) {
           p.s3Params.Prefix += path.basename(dir);    
         }
 
