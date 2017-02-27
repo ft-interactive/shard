@@ -1,6 +1,6 @@
 # shard
 
-A [story about the Shard](ig.ft.com/sites/shard).
+A [story about the Shard](https://ig.ft.com/sites/shard).
 
 ## Licence
 This reposoitory contains elements that are copyright [Shorthand Pty Ltd](http://shorthand.com/). All rights reserved.
